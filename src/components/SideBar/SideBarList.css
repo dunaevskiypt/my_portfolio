@@ -1,0 +1,8 @@
+.navbar-items {
+	margin-left: 60px;
+}
+
+.logo {
+	transition: opacity 0.5s ease, height 0.5s ease;
+	color: #fff;
+}

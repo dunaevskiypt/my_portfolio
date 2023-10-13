@@ -8,11 +8,26 @@
 	display: flex;
 }
 
+.sidebar {
+	height: 100vh;
+	width: 60px;
+
+	transition: width 0.8s ease-in-out;
+	position: fixed;
+}
+
+.sidebar-expand {
+	width: 230px;
+}
+
 .icon-for-sidebar-expand-and-collapse p svg {
 	padding: 5px;
 	border-radius: 5px;
-	margin-top: 50px;
+	margin-top: 30px;
 	border: 1px solid #fff;
+}
+.icon-for-sidebar-expand-and-collapse svg {
+	color: #fff;
 }
 
 .icon-for-sidebar-expand-and-collapse {
@@ -20,19 +35,4 @@
 	align-items: right;
 	justify-content: right;
 	cursor: pointer;
-}
-
-.icon-for-sidebar-expand-and-collapse svg {
-	color: #fff;
-}
-
-.sidebar {
-	height: 100vh;
-	width: 100px;
-	opacity: 0.9;
-	transition: width 0.8s ease-in-out;
-}
-
-.sidebar-expand {
-	width: 230px;
 }
