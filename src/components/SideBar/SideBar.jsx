@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './SideBar.css'
 import { LiaAngleLeftSolid, LiaAngleRightSolid } from 'react-icons/lia'
 import SideBarList from './SideBarList'
-import Header from '../Header/Header'
+import Home from '../Home/Home'
 
 const SideBar = () => {
 	const [expandSidebar, setexpandSidebar] = useState(true)
@@ -25,7 +25,7 @@ const SideBar = () => {
 				<SideBarList expandSidebar={expandSidebar} />
 			</div>
 			<div className='container'>
-				<Header />
+				<Home />
 			</div>
 		</div>
 	)

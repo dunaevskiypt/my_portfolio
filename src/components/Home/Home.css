@@ -1,0 +1,54 @@
+.home {
+	height: 400px;
+	color: #fff;
+}
+
+.home-content {
+	margin-top: 150px;
+	padding: 10px;
+}
+
+.home-content h3 {
+	margin-top: 15px;
+	padding-left: 10px;
+}
+
+.button-for-action {
+	display: flex;
+}
+
+.get-cv-button {
+	margin-left: 5px;
+}
+
+.get-cv-button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.hire-me-button,
+.get-cv-button {
+	width: 180px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 90px;
+	cursor: pointer;
+	margin-top: 10px;
+	border: 2px solid teal;
+	font-size: 12px;
+	transition: all 0.5s;
+}
+
+.hire-me-button:hover,
+.get-cv-button:hover {
+	background-color: teal;
+	width: 230px;
+	color: burlywood;
+}
+
+.hire-me-button:hover,
+.get-cv-button:hover,
+.hire-me-button,
+.get-cv-button {
+	transition: all 0.5s;
+}
