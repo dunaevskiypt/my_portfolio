@@ -1,0 +1,28 @@
+.about-section {
+	margin-top: 50px;
+	-webkit-box-shadow: 5px 7px 16px 4px rgba(0, 0, 0, 0.75);
+	box-shadow: 5px 7px 16px 4px rgba(0, 0, 0, 0.75);
+}
+
+.row {
+	text-align: center;
+}
+
+.about-details {
+	margin-top: 50px;
+}
+.about-title h5 {
+	text-align: center;
+}
+
+.about-details p {
+	color: #f5f5f5;
+	margin-top: 20px;
+}
+.line {
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 1px auto;
+	background-color: yellow;
+}

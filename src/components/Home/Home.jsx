@@ -5,7 +5,6 @@ import My_SV from './my_resume.pdf'
 const Home = () => {
 	return (
 		<div className='container-fluid home'>
-			Home
 			<div className='container home-content'>
 				<h1>Hi my name is</h1>
 				<h3>
