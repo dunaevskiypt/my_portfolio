@@ -3,7 +3,6 @@ import './SideBar.css'
 import { LiaAngleLeftSolid, LiaAngleRightSolid } from 'react-icons/lia'
 import SideBarList from './SideBarList'
 import Home from '../Home/Home'
-import About from '../About/About'
 
 const SideBar = () => {
 	const [expandSidebar, setexpandSidebar] = useState(true)
@@ -27,7 +26,6 @@ const SideBar = () => {
 			</div>
 			<div className='container'>
 				<Home />
-				<About />
 			</div>
 		</div>
 	)
