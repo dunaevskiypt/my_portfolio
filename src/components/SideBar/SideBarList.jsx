@@ -1,34 +1,88 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import {
+	LiaHomeSolid,
+	LiaUserAltSolid,
+	LiaStackOverflow,
+	LiaKeyboardSolid,
+	LiaBookReaderSolid,
+	LiaRandomSolid,
+	LiaHandshakeSolid,
+	LiaPhoneVolumeSolid,
+} from 'react-icons/lia'
 import './SideBarList.css'
 
 const SideBarList = ({ expandSidebar }) => {
-	const [showLogo, setShowLogo] = useState(false)
-
-	useEffect(() => {
-		if (expandSidebar) {
-			// При раскрытии сайдбара, показываем лого с задержкой
-			setTimeout(() => {
-				setShowLogo(true)
-			}, 900) // Задержка в миллисекундах (0.8 секунды)
-		} else {
-			// При закрытии сайдбара, сначала скрываем лого, затем меняем состояние expandSidebar
-			setShowLogo(false)
-			setTimeout(() => {
-				// Меняем состояние expandSidebar
-			}, 900) // Задержка в миллисекундах (0.5 секунды)
-		}
-	}, [expandSidebar])
-
 	return (
 		<React.Fragment>
 			{expandSidebar ? (
 				<div className='navbar-items'>
-					<div className='sidebar-profile-foto'>
-						{showLogo && <h2 className='logo'>LOGO</h2>}
+					<div className='logo'>
+						<h3>DPT/</h3>
 					</div>
+					<ul>
+						<li className='nav-item'>
+							<LiaHomeSolid size={30} />
+							Home
+						</li>
+						<li className='nav-item'>
+							<LiaUserAltSolid size={30} />
+							About
+						</li>
+						<li className='nav-item'>
+							<LiaStackOverflow size={30} />
+							Experience
+						</li>
+						<li className='nav-item'>
+							<LiaKeyboardSolid size={30} />
+							Tech Stack
+						</li>
+						<li className='nav-item'>
+							<LiaBookReaderSolid size={30} />
+							Education
+						</li>
+						<li className='nav-item'>
+							<LiaRandomSolid size={30} />
+							Projects
+						</li>
+						<li className='nav-item'>
+							<LiaHandshakeSolid size={30} />
+							Testimonial
+						</li>
+						<li className='nav-item'>
+							<LiaPhoneVolumeSolid size={30} />
+							Contacts
+						</li>
+					</ul>
 				</div>
 			) : (
-				<div className='clear-foto'></div>
+				<div className='navbar-items'>
+					<ul>
+						<li className='nav-item'>
+							<LiaHomeSolid size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaUserAltSolid size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaStackOverflow size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaKeyboardSolid size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaBookReaderSolid size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaRandomSolid size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaHandshakeSolid size={30} />
+						</li>
+						<li className='nav-item'>
+							<LiaPhoneVolumeSolid size={30} />
+						</li>
+					</ul>
+				</div>
 			)}
 		</React.Fragment>
 	)

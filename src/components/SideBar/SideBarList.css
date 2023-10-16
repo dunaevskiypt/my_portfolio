@@ -1,8 +1,22 @@
-.navbar-items {
-	margin-left: 60px;
+.logo {
+	opacity: 1;
+	color: orange;
+	margin-left: 20px;
+	border: 1px solid red;
 }
 
-.logo {
-	transition: opacity 0.5s ease, height 0.5s ease;
+.navbar-items ul li {
 	color: #fff;
+	list-style: none;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.navbar-items ul li svg {
+	margin-right: 25px;
+	margin-left: 10px;
+}
+
+.navbar-items li:hover {
+	color: teal;
 }
