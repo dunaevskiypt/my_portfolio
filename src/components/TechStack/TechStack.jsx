@@ -14,6 +14,8 @@ const TechStack = () => {
 		{ name: 'FastApi' },
 		{ name: 'SQL' },
 		{ name: 'PostgresQL' },
+		{ name: 'Full Stack Dev' },
+		{ name: 'HTML CSS' },
 	]
 
 	return (

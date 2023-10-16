@@ -16,9 +16,7 @@ const SideBarList = ({ expandSidebar }) => {
 		<React.Fragment>
 			{expandSidebar ? (
 				<div className='navbar-items'>
-					<div className='logo'>
-						<h3>DPT/</h3>
-					</div>
+					<div className='logo'></div>
 					<ul>
 						<li className='nav-item'>
 							<LiaHomeSolid size={30} />

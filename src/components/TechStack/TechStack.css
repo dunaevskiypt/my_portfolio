@@ -24,8 +24,8 @@
 }
 
 .tech-content:hover {
-	background-color: rgb(29, 25, 36);
+	background-color: teal;
 	cursor: pointer;
 	color: wheat;
-	transform: scale(1.05);
+	transform: scale(1.07);
 }
